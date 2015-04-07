@@ -75,7 +75,7 @@ Layout styles
 
 .container
 {
-	max-width: 70em;
+	max-width: 80em;
 	margin: 0 auto;
 }
 
@@ -101,7 +101,7 @@ Layout styles
 	background-color: #fff;
 }
 
-.main, .aside
+.col1,.col2,.col3
 {
 	margin-bottom: 1em;
 }
@@ -234,25 +234,30 @@ Single styles
 Wide styles
 ------------------------*/
 
-@media (min-width: 55em)
+@media (min-width: 60em)
 {
-	.header { padding: 1.5em 3em; }
-	.nav-bar { padding: 1em 3em; }
-	.content { padding: 2em 3em; }
+	.header { padding: 1.5em 2em; }
+	.nav-bar { padding: 1em 2em; }
+	.content { padding: 2em 2em; }
 
-	.main
+	.col1
 	{
 		float: left;
-		width: 65%;
-		margin-right: 5%;
-		margin-bottom: 1em;
+		width: 48%;
+		margin-right: 4%;
 	}
 
-	.aside
+	.col2
 	{
 		float: left;
-		width: 30%;
-		margin-bottom: 1em;
+		width: 22%;
+		margin-right: 4%;
+	}
+
+	.col3
+	{
+		float: left;
+		width: 22%;
 	}
 
 	.footer { padding: 2em 3em; }
